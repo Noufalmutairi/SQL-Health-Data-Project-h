@@ -27,5 +27,7 @@ This project analyzes Hepatitis C cases in Saudi Arabia across 20 regions from 2
 - **Age Groups with Highest and Lowest Patients**: Identifying the age groups with the highest and lowest number of patients for each year.
 
 
+## Additional Resources
+- Read the article for a deeper understanding: [Hepatitis C cases in Saudi Arabia: Analysis using SQL](https://www.linkedin.com/pulse/hepatitis-c-cases-saudi-arabia-analysis-using-sql-nouf-almutairi-bakte/)
 ## Contact Information
 feel free to contact [Nouf Almutairi](https://www.linkedin.com/in/nouf-almutairi-5671132a2/) on Linkedin
