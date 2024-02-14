@@ -1,30 +1,52 @@
 # Hepatitis C Cases in Saudi Arabia: Analysis using SQL
 
-## Overview
-This project analyzes Hepatitis C cases in Saudi Arabia across 20 regions from 2019 to 2022. The dataset includes demographic information such as gender and age groups.
 
-## Functions Used
+## Queries Overview
 
-### 1. Descriptive Statistics
-- **Total Number of Regions**: Calculated using SQL query to count the distinct regions.
-- **Total Patients**: Summation of patients across all years.
-- **Average Patients**: Average count of patients across all regions.
-- **Minimum and Maximum Patients**: Identifying the regions with the lowest and highest patient counts.
-- **Standard Deviation of Patients**: Measuring the variability in patient counts across regions.
+### Descriptive Statistics Query
+- Computes descriptive statistics such as counts, totals, averages, minimums, maximums, and standard deviations for regions.
+- Utilizes SQL aggregation functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `STDDEV`) and clauses (`DISTINCT`) to derive insights into patient distribution across regions.
 
-### 2. Temporal Trends
-- **Average and Standard Deviation by Year**: Calculating the average and standard deviation of patients for each year (2019-2022).
-- **Percentage Change**: Determining the percentage change in patient numbers between 2019 and 2022 for each region.
-- **Regions with Highest Patient Count**: Sorting regions based on the total number of patients in descending order.
+### Yearly Average and Standard Deviation Query
+- Calculates the average and standard deviation for each year (2019-2022) independently.
+- Demonstrates proficiency in statistical analysis using SQL aggregation functions (`AVG`, `STDDEV`) and rounding with `ROUND` function for clear presentation.
 
-### 3. Gender Trends
-- **Total Number of Females and Males**: Calculating the total number of females and males across all years.
-- **Average Number of Females and Males**: Computing the average number of females and males across all years.
-- **Percentage of Females and Males**: Calculating the percentage of females and males for each year.
+### Sort the Regions Query
+- Retrieves regions sorted based on the total number of patients in descending order.
+- Showcases sorting functionality (`ORDER BY`) for organizing data based on specific criteria.
 
-### 4. Age Patterns
-- **Total Patients by Age Group**: Summation of patients for each age group across all years.
-- **Age Groups with Highest and Lowest Patients**: Identifying the age groups with the highest and lowest number of patients for each year.
+### Retrieve the Number of Regions Query
+- Counts the number of distinct regions in the dataset.
+- Utilizes SQL function (`COUNT`) with `DISTINCT` keyword for accurate counting of regions.
+
+### Find the Five Regions with the Highest Total Patients Query
+- Retrieves the top 5 regions with the highest total number of patients.
+- Utilizes clauses (`ORDER BY` and `LIMIT`) for focused analysis of top-performing regions.
+
+### Percentage Change in Patients Query
+- Calculates the percentage change in patients' numbers between 2019 and 2022 for each region.
+- Utilizes mathematical calculations and conditional logic (`CASE` statement) for insightful comparisons.
+
+### Total Patients for Each Age Group Query
+- Aggregates data for each age group and calculates total patients across all years.
+- Demonstrates proficiency in data grouping (`GROUP BY`) and summarization using aggregate function (`SUM`).
+
+### Retrieve the Age Groups with the Highest/Lowest Number of Patients Query
+- Identifies the age groups with the highest and lowest number of patients for each year (2019-2022).
+- Utilizes subqueries and conditional filtering with `WHERE` clause to extract relevant information.
+
+### Total Number of Females and Males Query
+- Calculates the total number of females and males across all years.
+- Utilizes aggregate function (`SUM`) to aggregate gender data.
+
+### Average Number of Females and Males Query
+- Computes the average number of females and males across all years.
+- Demonstrates proficiency in using aggregate function (`AVG`) for calculating averages.
+
+### Percentage of Females and Males for Each Year Query
+- Calculates the percentage of females and males for each year.
+- Utilizes mathematical operations and string concatenation for percentage calculation.
+
 
 
 ## Additional Resources
