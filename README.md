@@ -28,4 +28,4 @@ Analyzing Hepatitis C cases in Saudi Arabia, uncovering patient demographics and
 ## Additional Resources
 - Read the article for a deeper understanding: [Hepatitis C cases in Saudi Arabia: Analysis using SQL](https://www.linkedin.com/pulse/hepatitis-c-cases-saudi-arabia-analysis-using-sql-nouf-almutairi-bakte/)
 ## Contact Information
-feel free to contact [Nouf Almutairi](https://www.linkedin.com/in/nouf-almutairi-5671132a2/) on Linkedin
+feel free to contact [Nouf Almutairi](https://www.linkedin.com/in/nouf-almutairi-5671132a2/) 
