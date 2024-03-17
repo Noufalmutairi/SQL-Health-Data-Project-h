@@ -1,5 +1,15 @@
 # Hepatitis C Cases in Saudi Arabia: Analysis using SQL
 
+## Overview
+Analyzing Hepatitis C cases in Saudi Arabia, uncovering patient demographics and patterns.
+
+## Dataset
+- **Source:** [Here](https://od.data.gov.sa/Data/ar/dataset/hepatitis-c-cases-in-ksa)
+
+## Technologies Used
+- MySQL
+
+
 
 ## Queries Overview
 
@@ -11,9 +21,6 @@
 - Counts the number of distinct regions in the dataset.
 - Utilizes SQL function (`COUNT`) with `DISTINCT` keyword for accurate counting of regions.
 
-### Find the Five Regions with the Highest Total Patients Query
-- Retrieves the top 5 regions with the highest total number of patients.
-- Utilizes clauses (`ORDER BY` and `LIMIT`) for focused analysis of top-performing regions.
 
 ### Percentage Change in Patients Query
 - Calculates the percentage change in patients' numbers between 2019 and 2022 for each region.
