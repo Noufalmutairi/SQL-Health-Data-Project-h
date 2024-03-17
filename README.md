@@ -16,11 +16,7 @@ Analyzing Hepatitis C cases in Saudi Arabia, uncovering patient demographics and
 ### Descriptive Statistics Query
 - Computes descriptive statistics such as counts, totals, averages, minimums, maximums, and standard deviations for regions.
 - Utilizes SQL aggregation functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`, `STDDEV`) and clauses (`DISTINCT`) to derive insights into patient distribution across regions.
-
-### Retrieve the Number of Regions Query
-- Counts the number of distinct regions in the dataset.
-- Utilizes SQL function (`COUNT`) with `DISTINCT` keyword for accurate counting of regions.
-
+  
 
 ### Percentage Change in Patients Query
 - Calculates the percentage change in patients' numbers between 2019 and 2022 for each region.
